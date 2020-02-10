@@ -41,7 +41,6 @@
 import Swiper from "../../components/Swiper/index";
 import config from "../../config/config";
 export default {
-  name: "Index",
   components: { Swiper },
   data() {
     return {
@@ -64,7 +63,8 @@ export default {
   },
   methods: {
     togglePage(item) {
-      this.$router.push({ path: "goods", query: { name: item.name } });
+      this.$router.push({ path: "/goods", query: { name: item.name } });
+      console.log("togglePage")
     }
   }
 };

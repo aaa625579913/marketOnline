@@ -1,5 +1,5 @@
 # sure-project
-
+用Vue搭建的网上商城
 ## Project setup
 ```
 npm install

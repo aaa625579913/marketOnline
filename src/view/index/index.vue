@@ -36,15 +36,15 @@
       </div>
     </div>
     <div class="gs-dividor"></div>
-    <mainRoom></mainRoom>
+    <router-view/>
   </div>
 </template>
 
 <script>
-  import mainRoom from '../mainRoom/index'
+  // import mainRoom from '../mainRoom/index'
   export default {
     components:{
-        mainRoom
+        // mainRoom
     },
     methods: {
       toHomepage () {
