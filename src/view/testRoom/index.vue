@@ -2,7 +2,7 @@
   <div>
     <h1>现在的数字是：{{num}}</h1>
     <h1>现在的数字是：{{tenTimesNum}}</h1>
-    <button @click="addNum">增加</button>
+    <button class="button1" @click="addNum">增加</button>
     <button @click="asynAddNum">异步增加</button>
     <div>
     <input v-model="value"/>
@@ -40,6 +40,9 @@ export default {
 <style scoped>
 h1 {
   padding: 5px 0;
+}
+.button1{
+  margin-right:20px;
 }
 </style>
 
